@@ -47,7 +47,7 @@ header a {
 
 .content {
   position: relative;
-  top: 40px; /*タブで動くとTop行隠れる...*/
+  top: 40px;
 }
 
 /* Mission */
@@ -57,22 +57,41 @@ header a {
   width: 1200px;
   height: 700px;
   margin: 0 auto;
-}
-
-.mission .statement {
-  background-color: black;
   display: flex;
   align-items: center;
 }
 
+.mission .statement {
+  background-color: black;
+  width: 1200px;
+}
+
+.mission h2 {
+  margin: 15px auto;
+}
+
+.mission h4 {
+  margin: 15px auto;
+}
 
 /* Featured Tea */
 
 .tea {
   width: 1000px;
-  margin: 0 auto;
-  border: 1px solid white;
+  margin: 0px auto;
+  padding: 50px 0;
 }
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recommend {
+  margin: 0 15px;
+}
+
 .recommend img {
   width: 300px;
   height: 200px;
@@ -89,13 +108,28 @@ header a {
   width: 1200px;
   height: 500px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location h2 {
+  margin-bottom: 15px;
+}
+
+.stores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .address {
   background-color: black;
   width: 300px;
+  opacity: 0.9;
+  margin: 0 20px;
 
-  opacity: 1;
 }
 .contact {
   height: 200px;
