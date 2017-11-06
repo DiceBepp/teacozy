@@ -1,0 +1,47 @@
+
+/* General */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+
+}
+
+/* Mission */
+
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+}
+
+/* Featured Tea */
+
+.recommend img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Location */
+
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+
+}
